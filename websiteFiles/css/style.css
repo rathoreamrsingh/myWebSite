@@ -105,8 +105,8 @@ body{
 }
 
 .profile-pic {
-    background-image: url("../images/pic.jpg");
-    background-position: 54% 100%;
+    background-image: url("../images/profile.jpg");
+    background-position: 54% 40%;
     background-repeat: no-repeat;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -155,7 +155,7 @@ body{
     color:white;
     font-size:20px;
 }
-.menu-innercontent{
+.menu-inner-content{
     overflow:hidden;
     margin:0 0;
     padding:0 0;
@@ -200,4 +200,10 @@ body{
 .header{
     overflow:hidden;
     z-index:1000;
+}
+
+.heading-menu-content{
+    float: right;
+    margin-right: 50px;
+
 }
