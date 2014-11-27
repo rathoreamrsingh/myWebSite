@@ -1,5 +1,6 @@
 body{
-    /*background:#66C2FF;*/
+    margin:0 0;
+    padding:0 0;
 }
 .heading-content{
     
@@ -41,7 +42,7 @@ body{
     bottom: 0;
     width: 0;
     height: 0;
-    border-bottom: 40px solid #66C2FF;
+    border-bottom: 40px solid white;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
 }
@@ -134,4 +135,69 @@ body{
     font-size: 100px;
     margin: 0 0;
     margin-top: 30%;
+}
+.header-container {
+    margin:0 0;
+    padding:0 0;
+    overflow:hidden;
+    background:#303030 ;
+    padding-left:30px;
+    padding-right:30px;
+    position:fixed;
+    width:100%;
+    z-index:1000;
+}
+
+.heading {
+    float: left;
+    font-family: 'Rock Salt', cursive;
+    font-weight: 400; 
+    color:white;
+    font-size:20px;
+}
+.menu-innercontent{
+    overflow:hidden;
+    margin:0 0;
+    padding:0 0;
+}
+.skype, .google, .twitter, .linkedin, .github, .facebook{
+    float:right;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+    cursor: pointer;
+}
+.facebook{
+    background: url('../images/facebook-circle-color.png') no-repeat -4px -4px;
+	width: 24px;
+	height: 25px;
+}
+.twitter{
+    background: url('../images/twitter-circle-color.png') no-repeat -4px -4px;
+	width: 24px;
+	height: 25px;
+}
+.skype{
+    background: url('../images/skype-circle-color.png') no-repeat -4px -4px;
+	width: 24px;
+	height: 25px;
+}
+.google{
+    background: url('../images/google-plus-circle-color.png') no-repeat -4px -4px;
+	width: 24px;
+	height: 25px;
+}
+.github{
+    background: url('../images/github-circle-color.png') no-repeat -4px -4px;
+	width: 24px;
+	height: 25px;
+}
+.linkedin{
+    background: url('../images/linkedin-circle-color.png') no-repeat -4px -4px;
+	width: 24px;
+	height: 25px;
+}
+.header{
+    overflow:hidden;
+    z-index:1000;
 }
